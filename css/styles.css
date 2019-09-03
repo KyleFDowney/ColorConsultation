@@ -4,13 +4,26 @@ ul {
   padding: 0;
 }
 
+dl,
+ol,
+ul {
+  margin-bottom: 0 !important;
+}
+
 li {
   display: inline;
 }
 
 nav {
-  margin: auto;
+  margin: 0 auto;
   text-align: center;
+}
+
+.navLink {
+  border: solid grey 2px;
+  border-radius: 0.5em;
+  padding: 0 0.5em;
+  margin: 0;
 }
 
 .lightbox img {
@@ -18,16 +31,37 @@ nav {
   margin: auto;
 }
 
-.squareText {
-  display: inline-block;
-  width: 80%;
-  padding: 36px;
+.squareLeftText {
+  margin: 0 0 0 12em;
+  padding: 2em;
+}
+
+.squareRightText {
+  margin: 0 12em 0 0;
+  padding: 2em;
 }
 
 .squareLeft {
-  padding: 12px 0;
-  display: inline-block;
-  width: 20%;
+  float: left;
+}
+
+.squareRight {
+  float: Right;
+}
+
+.squareImg {
+  width: 150px;
+  height: 150px;
+  margin: 1.5em;
+}
+
+.textBlob {
+  display: block;
+  width: 80%;
+  height: 200px;
+  border: solid;
+  border-radius: 1em;
+  margin: 1em auto;
 }
 
 /* ================================== */
