@@ -62,11 +62,15 @@ nav {
 .textBlob {
   display: block;
   width: 80%;
-  height: 200px;
   border: solid;
   border-radius: 1em;
   margin: 1em auto;
   background-color: antiquewhite;
+}
+
+.textBlobContent {
+  margin: 0;
+  padding: 2em;
 }
 
 /* ================================== */
