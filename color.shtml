@@ -1,0 +1,169 @@
+<html lang="en">
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  />
+  <link href="css/styles.css" rel="stylesheet" />
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Colors</title>
+  </head>
+
+  <body onload="currentSlide(1)">
+    <nav>
+      <ul>
+        <li>
+          <a href="index.shtml" class="navLink">Home</a>
+        </li>
+        <li>
+          <a href="about.shtml" class="navLink">About</a>
+        </li>
+        <li>
+          <a href="testimonials.shtml" class="navLink">Testimonials</a>
+        </li>
+        <li>
+          <a href="faq.shtml" class="navLink">FAQ</a>
+        </li>
+        <li>
+          <a href="color.shtml" class="navLink">Color Selection</a>
+        </li>
+        <li>
+          <a href="packages.shtml" class="navLink">Paint Color Packages</a>
+        </li>
+        <li>
+          <a href="portfoilio.shtml" class="navLink">Portfolio Gallery</a>
+        </li>
+        <li>
+          <a href="shop.shtml" class="navLink">Shop</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="textBlob">
+      <div class="textBlobContent">
+        <h1>Color Selection</h1>
+
+        <h2>Picking Paint Colors doesn’t have to be Overwhelming</h2>
+
+        <p>
+          With over 25 years of experience in home interior paint color
+          consulting, I’m now offering my paint consultant services online at a
+          fraction of the cost for an in-home consultation.
+        </p>
+
+        <h3>How my Online Paint Consultant Service Works</h3>
+
+        <p>
+          After you’ve chosen the Paint Color Package LINK TO TAB that fits your
+          painting project, click on the Shop tab at top to purchase the
+          package.
+        </p>
+        <p>
+          Upon processing of your payment, you will receive an email with an
+          attached questionnaire. If you don’t receive the email, please check
+          your spam folder.
+        </p>
+        <p>
+          In order to provide you with the best color options to fit your
+          project, please complete and return the questionnaire along with a few
+          photos which will help me choose the colors that will work best in
+          your home. Within 48 hours of receipt of the completed questionnaire
+          and photos, you will receive an email which will contain 3 paint color
+          options for you to choose your preference, but each paint color
+          provided will work beautifully in your home.
+        </p>
+        <p>
+          Below are helpful tips to consider before choosing the Paint Color
+          Package that fits your needs:
+        </p>
+        <h2>Where to Start when Choosing a Paint Color</h2>
+
+        <h3>Are you looking to make your room appear more spacious?</h3>
+        <h3>
+          Do you want the room to resonate a warm feeling or create a bold
+          statement?
+        </h3>
+        <h3>
+          Are you looking for an elegant neutral or a neutral shade of color?
+        </h3>
+        <h3>
+          Neutral colors work well with a wide array of colors to accessorize.
+        </h3>
+
+        <h2>Accent Walls</h2>
+        <p>
+          Accent walls were more popular in the 90’s with my customers, but a
+          beautiful accent wall can really work in certain rooms.
+        </p>
+
+        <h2>Color Elimination</h2>
+
+        <div class="alignTextMid">
+          <h3>Don't let an undertone</h3>
+          <img src="./img/color3.png" class="alignTextMid" />
+          <h3>undermind your vision</h3>
+        </div>
+
+        <p>
+          Just as the same color paint may look completely different in your
+          home from your friend’s home due to lighting, accessories, trim and
+          flooring. Paint colors can even vary from room to room in your own
+          home.
+        </p>
+
+        <p>
+          This is due to the paint having warmer or cooler undertones and how
+          these undertones interact with the undertones of your furniture,
+          accessories, flooring and room lighting.
+        </p>
+
+        <p>
+          Although you might have already eliminated a particular paint color as
+          you didn’t feel it worked in your home, it could be possible the same
+          color with different undertones could work.
+        </p>
+
+        <p>
+          As an example, a gray paint can have undertones of blue, green or
+          purple. If one shade of gray doesn’t fit well in your room, it is
+          quite possible another shade of gray with different undertones could
+          look beautiful in your room.
+        </p>
+      </div>
+    </div>
+
+    <div class="textBlob">
+      <div class="squareLeft">
+        <img src="./img/square.png" class="squareImg" />
+      </div>
+      <div class="squareLeftText">
+        <h2>Color</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus sint
+          aspernatur error cum, dolores, dolor explicabo nisi nam excepturi
+          recusandae optio! Neque quae reiciendis facilis architecto corporis
+          natus vero vitae.
+        </p>
+      </div>
+    </div>
+    <div class="textBlob">
+      <div class="squareRight">
+        <img src="./img/square.png" class="squareImg" />
+      </div>
+      <div class="squareRightText">
+        <h2>Color</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus sint
+          aspernatur error cum, dolores, dolor explicabo nisi nam excepturi
+          recusandae optio! Neque quae reiciendis facilis architecto corporis
+          natus vero vitae.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

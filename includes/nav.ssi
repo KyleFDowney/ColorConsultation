@@ -1,0 +1,28 @@
+<nav>
+  <ul>
+    <li>
+      <a href="index.shtml" class="navLink">Home</a>
+    </li>
+    <li>
+      <a href="about.shtml" class="navLink">About</a>
+    </li>
+    <li>
+      <a href="testimonials.shtml" class="navLink">Testimonials</a>
+    </li>
+    <li>
+      <a href="faq.shtml" class="navLink">FAQ</a>
+    </li>
+    <li>
+      <a href="color.shtml" class="navLink">Color Selection</a>
+    </li>
+    <li>
+      <a href="packages.shtml" class="navLink">Paint Color Packages</a>
+    </li>
+    <li>
+      <a href="portfoilio.shtml" class="navLink">Portfolio Gallery</a>
+    </li>
+    <li>
+      <a href="shop.shtml" class="navLink">Shop</a>
+    </li>
+  </ul>
+</nav>

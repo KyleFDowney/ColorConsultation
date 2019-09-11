@@ -22,6 +22,10 @@ nav {
   margin: 0.5em auto;
   text-align: center;
 }
+.slideContainer {
+  border-radius: 1em;
+  margin: 1em 2em;
+}
 
 .navLink {
   border: solid grey 2px;
@@ -59,6 +63,11 @@ nav {
   margin: 1.5em;
 }
 
+.blobImg {
+  margin: 1.5em;
+  width: 80%;
+}
+
 .textBlob {
   display: block;
   width: 80%;
@@ -71,6 +80,10 @@ nav {
 .textBlobContent {
   margin: 0;
   padding: 2em;
+}
+
+.alignTextMid {
+  text-align: center;
 }
 
 /* ================================== */
@@ -95,18 +108,22 @@ nav {
 }
 
 /* Next & previous buttons */
+.nextPrev {
+  margin: auto;
+  padding-top: 1em;
+}
+
 .prev,
 .next {
   cursor: pointer;
-  position: absolute;
   top: 40%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
+  width: 30%;
+  padding: 0.8em 6em;
   color: white;
   font-weight: bold;
   font-size: 20px;
-  border-radius: 0 3px 3px 0;
+  border-radius: 0.5em 0 0 0.5em;
+  background-color: thistle;
   user-select: none;
   -webkit-user-select: none;
 }
@@ -114,7 +131,7 @@ nav {
 /* Position the "next button" to the right */
 .next {
   right: 0;
-  border-radius: 3px 0 0 3px;
+  border-radius: 0 0.5em 0.5em 0;
 }
 
 /* On hover, add a black background color with a little bit see-through */
